@@ -89,18 +89,18 @@ Gimp and system GEGL will also be able to find these plugins.
 
 **Gaussian Blur**
 
-`pgegl 
+pgegl 
 
 gaussian-blur
 std-dev-x=4 std-dev-y=4
 
-crop`
+crop
 
 ![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/d9b7b2d5-5d8f-4345-ba93-5857c43d4cf0)
 
 **Bloom**
 
-`pgegl
+pgegl
 
 bloom 
 threshold=50
@@ -109,13 +109,13 @@ radius=10
 strength=50
 limit-exposure=false
 
-crop`
+crop
 
 ![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/a7d19bb7-1fa5-49b1-ab1a-11640cbad54d)
 
 **GEGL Denoise + Soft Glow + Saturation + Sharpen all together**
 
-`pgegl
+pgegl
 
 denoise-dct sigma=2
 
@@ -128,13 +128,36 @@ saturation scale=1.3
 
 unsharp-mask scale=0.35
 
-crop`
+crop
+
 ![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/da1adb47-babc-432e-aa5f-76744eb71f41)
 
 
 
 
 **Layer Effects (this one is actually advance and chains many filters** Including emboss inside a composer
+
+pgegl
+
+gaussian-blur std-dev-x=2 std-dev-y=2
+
+id=1 hard-light aux=[ ref=1 emboss depth=10 elevation=20 
+opacity value=0.4 ]
+
+opacity value=3
+
+median-blur radius=0
+
+dropshadow x=0 y=0 radius=0
+grow-radius=5 opacity=1 color=#000000
+
+dropshadow x=0 y=0 radius=0
+grow-radius=3 opacity=1 color=#ffffff
+
+dropshadow x=0 y=0 opacity=1.7
+color=#1900ff
+
+crop
 
 ![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/92b5f4d1-5684-45c5-a51e-d2ca2c67f7cb)
 
