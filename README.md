@@ -1,5 +1,8 @@
-## GEGL in Pixelitor ( an open source image editor with advance non-destructive editing,)
+## GEGL in Pixelitor ( an open source image editor with advance non-destructive editing)
 https://github.com/lbalazscs/Pixelitor
+
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/2e7cd818-5cec-4b8c-bac7-14ddd727f249)
+
 
 Pixelitor is an open source image editor with experimental adjustment layers, clone layers, vector layers and smart objects that are "stable" by normal standards.
 
