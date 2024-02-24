@@ -84,3 +84,57 @@ Gimp and system GEGL will also be able to find these plugins.
 
 ![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/30048cfb-2423-419e-aeb2-16b8363ccdd9)
 
+
+## Simple GEGL Syntax 
+
+**Gaussian Blur**
+
+`pgegl 
+
+gaussian-blur
+std-dev-x=4 std-dev-y=4
+
+crop`
+
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/d9b7b2d5-5d8f-4345-ba93-5857c43d4cf0)
+
+**Bloom**
+
+`pgegl
+
+bloom 
+threshold=50
+softness=25
+radius=10
+strength=50
+limit-exposure=false
+
+crop`
+
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/a7d19bb7-1fa5-49b1-ab1a-11640cbad54d)
+
+**GEGL Denoise + Soft Glow + Saturation + Sharpen all together**
+
+`pgegl
+
+denoise-dct sigma=2
+
+softglow 
+glow-radius=7 
+brightness=0.25
+sharpness=0.6
+
+saturation scale=1.3 
+
+unsharp-mask scale=0.35
+
+crop`
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/da1adb47-babc-432e-aa5f-76744eb71f41)
+
+
+
+
+**Layer Effects (this one is actually advance and chains many filters** Including emboss inside a composer
+
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/92b5f4d1-5684-45c5-a51e-d2ca2c67f7cb)
+
