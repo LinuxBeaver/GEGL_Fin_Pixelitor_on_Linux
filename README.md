@@ -71,21 +71,7 @@ Gimp and system GEGL will also be able to find these plugins.
 **Picture of GEGL GMIC and native Pixelitor filters fused together to make fancy text styles**
 ![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/80f6154a-88f0-4c62-94fb-6c19abc6c985)
 
-### More Previews of GEGL mixed with native Pixelitor fitlers and GMIC - note everything including text is editable
-
-![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/48ce4707-2445-4e3f-9ec1-35dc0034b6af)
-
-![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/4df5be3d-8cc6-41cd-95a1-1f3bf935d8e5)
-
-![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/b70760e0-403b-4ee9-81f1-bab15f3b5c8c)
-
-
-![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/ad7d5734-c3e1-4f70-a2e3-b63dc896156c)
-
-![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/30048cfb-2423-419e-aeb2-16b8363ccdd9)
-
-
-## Simple GEGL Syntax 
+## Simple GEGL syntax study area
 
 **Gaussian Blur**
 
@@ -160,4 +146,21 @@ color=#1900ff
 crop
 
 ![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/92b5f4d1-5684-45c5-a51e-d2ca2c67f7cb)
+
+
+### More Previews of GEGL mixed with native Pixelitor fitlers and GMIC 
+- note everything including text is editable
+
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/48ce4707-2445-4e3f-9ec1-35dc0034b6af)
+
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/4df5be3d-8cc6-41cd-95a1-1f3bf935d8e5)
+
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/b70760e0-403b-4ee9-81f1-bab15f3b5c8c)
+
+
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/ad7d5734-c3e1-4f70-a2e3-b63dc896156c)
+
+![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/30048cfb-2423-419e-aeb2-16b8363ccdd9)
+
+
 
