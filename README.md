@@ -149,7 +149,7 @@ crop
 
 
 ### More Previews of GEGL mixed with native Pixelitor fitlers and GMIC 
-- note everything including text is editable
+ Everything including text is editable
 
 ![image](https://github.com/LinuxBeaver/Use_GEGL_in_Pixelitor_on_Linux/assets/78667207/48ce4707-2445-4e3f-9ec1-35dc0034b6af)
 
